@@ -992,6 +992,11 @@ MonoBehaviour:
   currentHealth: 0
   desperadoMeter: 0
   desperadoGainPerHit: 20
+  desperadoAnnouncement: {fileID: 0}
+  announcementDuration: 3
+  boostDuration: 10
+  damageMultiplier: 2
+  flashInterval: 0.25
 --- !u!114 &270996575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1193,7 +1198,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b254e416887ef8f47aacb5639cd41f85, type: 2}
+  - {fileID: 2100000, guid: 178e434619142a646a21fbf81e052a11, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4425,6 +4430,11 @@ MonoBehaviour:
   currentHealth: 0
   desperadoMeter: 0
   desperadoGainPerHit: 20
+  desperadoAnnouncement: {fileID: 0}
+  announcementDuration: 3
+  boostDuration: 10
+  damageMultiplier: 2
+  flashInterval: 0.25
 --- !u!114 &925458514
 MonoBehaviour:
   m_ObjectHideFlags: 0
